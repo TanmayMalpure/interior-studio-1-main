@@ -1,4 +1,4 @@
-const companyName = "elite interior design";
+const companyName = "Vm Interiors";
 
 const domain = companyName
   .toLowerCase()
@@ -11,10 +11,10 @@ export const siteConfig = {
   companyNameSuffix: companyName.split(" ").slice(1).join(" ").toUpperCase(),
   domain,
   email: `hello@${domain}.com`,
-  phone: "+91 89832 83115",
+  phone: "+91 1234567890",
   phoneRaw: "+91 1234567890",
   address: {
-    street: "Elite Interior Design",
+    street: "Vm Interiors",
     city: "Pune",
     state: "Maharashtra",
     zip: "411004",
@@ -23,11 +23,11 @@ export const siteConfig = {
   social: {
     twitter: `@${domain}`,
     instagram: {
-      profile: `https://www.instagram.com/eliteinteriorsindia?igsi=MTMyZXNic2Nwcjlydw==`,
+      profile: `https://www.instagram.com/__vm_interiors__?igsi=MW9zb2tkZXh2Z3M0MQ==`,
       posts: [
-        "https://www.instagram.com/reel/DaXwN1ZBD2U/embed",
-        "https://www.instagram.com/reel/DY9khlRgW-M/embed",
-        "https://www.instagram.com/reel/DYo8t2XNAjq/embed",
+        "https://www.instagram.com/reel/DcgQYhvIJf3/embed",
+        "https://www.instagram.com/reel/DcF9HbSqkjZ/embed",
+        "https://www.instagram.com/reel/DcLoVmxPi0e/embed",
       ],
     },
   },
